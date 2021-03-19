@@ -1,8 +1,8 @@
 /* CRIACAO DO NOVO ESQUEMA  */
 create database cake;
 use  cake;
-
-/* CRIACAO DAS TABELAS */
+ 
+/*  CRIACAO DAS TABELAS */
 CREATE TABLE cake.tbl_produtos (
   cod_produto INT NOT NULL AUTO_INCREMENT,
   nome_produto VARCHAR(45) NOT NULL,
